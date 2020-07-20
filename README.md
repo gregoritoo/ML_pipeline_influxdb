@@ -20,4 +20,4 @@ But for the third signal, the model without decomposition seems to reach a local
 </br>
 Here the results of the three experiments :</br>
 ![First_page_1](/Images/table_res.PNG)
-Note :  this method also seems to disminuish the variance of the predicted values.( ie for the same dataset, the LSTM with decomposition is more likely to give the same forecated value)
+Note :  this method also seems to disminuish the variance of the predicted values.( ie for the same dataset, the LSTM with decomposition is more likely to give the same forecasted value)
