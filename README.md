@@ -100,7 +100,7 @@ Quick methods explanation
   -directory : str </br>
      Directory where the models are going to be saved, by default at the root (r".").</br>
      
-**Once the model fitted it can by used by applying the predict function which need only two inputs : **</br>
+**Once the model fitted it can by used by applying the predict function which need only two inputs**: </br>
   -steps : int</br>
     number of points you want to forecast, by default 1.</br>
   -frame : Bool</br>
