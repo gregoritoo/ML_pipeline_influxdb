@@ -12,12 +12,12 @@ Please refer to [https://www.influxdata.com/blog/how-supralog-built-an-online-in
 
 Summary
 -------
--[Why decomposition ?](#why-decomposition-?)</br>
+
 -[GSFutur object](#gsfutur-object) </br>
 -[Example use case ](#example-use-case ) </br>
 -[Requirements](#quick-methods-explanation ) </br>
 -[Quick methods explanation ](#requirements) </br>
-
+-[Why decomposition ?](#why-decomposition-?)</br>
 
 GSFutur object
 --------------
