@@ -63,6 +63,7 @@ my dataframe (df) is like below and have a 200 points seasonal pattern :</br>
 ...</br>
 **Code for prediction 200 steps ahead**
 ```
+from GSFutur import GSFutur
 model=GSFutur()
 model.fit(df,look_back=400,freq_period=200,directory="My_directory_name/")
 prediction,lower,upper=model.predict(steps=200)
