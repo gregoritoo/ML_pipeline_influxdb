@@ -46,7 +46,7 @@ GSFutur object
 --------------
 
 This object simplify prediction by hidding all the paramaters for the user.
-It has many methods but below  five majors ones : </br>
+Let's focus on the most important ones : </br>
 -fit()  </br>
 -predict() </br>
 -retrain() </br>
