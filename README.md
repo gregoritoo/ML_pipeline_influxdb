@@ -114,9 +114,9 @@ Quick methods explanation
   -freq_period : int </br>
      size in point of the seasonal pattern (ex 24 if daily seasonality for a signal sampled at 1h frequency). </br>
   
- **load_models allows to reuse saved model by loading it in the class :**
-  -directory str
-      name of directory contaning trend.h5,seasonal.h5,residual.h5 by default (r".") ie root of project</br>
+ **load_models allows to reuse saved model by loading it in the class** : </br>
+   -directory : str
+     name of directory contaning trend.h5,seasonal.h5,residual.h5 by default (r".") ie root of project</br>
       
 **prediction_eval : once the prediction made**</br>
 This function compute and print four differents metrics (mse ,mae ,r2 and median) to evaluate accuracy of the model prediction and real_data need to have the same size</br>
