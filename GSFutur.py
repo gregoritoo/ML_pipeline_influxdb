@@ -490,7 +490,7 @@ class GSFutur():
         self.model_seasonal=model_seasonal
         self.model_residual=model_residual
 
-    def load_models(self,directory=r"."):
+    def load_models(self,directory="."):
         print(r""+directory+"/"+"trend"+".h5")
         model_trend=load_model(r""+directory+"/"+"trend"+".h5")
         model_seasonal=load_model(r""+directory+"/"+"seasonal"+".h5")
