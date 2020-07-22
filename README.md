@@ -1,12 +1,16 @@
 # ML_pipeline_influxdb
-Exemple of real time linear prediction : 
+Exemple of real time linear prediction :
+
 ![Linear PRED](/Images/gif_linear.gif)
 
 Exemple of LSTM + DECOMPOSITION prédiction :
+
 ![LSTM PRED](/Images/gif_lstm.gif)
 
 Please refer to [https://www.influxdata.com/blog/how-supralog-built-an-online-incremental-machine-learning-pipeline-with-influxdb-for-capacity-planning/] for further informations.</br>
 
+Why decomposition ?
+-----------------
 As describe in the article above, the aim of the project is to create a module able to forecast values of severals time series that could 
 deferred in nature.</br>
 One of the main problem in Deep Neural Network is to tune hyper-parameters (as for example the number of neurones ...) especially for multi-step ahead predictions. </br>
