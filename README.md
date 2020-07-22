@@ -23,7 +23,7 @@ GSFutur object
 --------------
 
 This object simplify prediction by hidding all the paramaters for the user.
-Let's focus on the most important ones : </br>
+Let's focus on the most important methods : </br>
 -fit()  </br>
 -predict() </br>
 -retrain() </br>
@@ -61,7 +61,6 @@ tensorflow</br>
 matplotlib</br>
 scipy</br>
 sklearn</br>
-from statsmodels.tsa.seasonal import seasonal_decompose</br>
 pickle</br>
 
 
