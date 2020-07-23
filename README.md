@@ -91,7 +91,7 @@ Quick methods explanation
      size in point of the seasonal pattern (ex 24 if daily seasonality for a signal sampled at 1h frequency). </br>
   
  **load_models allows to reuse saved model by loading it in the class** : </br>
-   -directory : str
+   -directory : str </br>
      name of directory contaning trend.h5,seasonal.h5,residual.h5 by default (r".") ie root of project</br>
       
 **prediction_eval : once the prediction made**</br>
